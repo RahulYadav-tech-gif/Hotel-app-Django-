@@ -4,9 +4,7 @@
 
 <div class="container mt-5 pt-5">
     <div class="row search-card-result">
-                
-
-                    
+            
         <div class="col-md-3">
             <a href="/hotel-detail/{{hotels_obj.uid}}">
                 <img class="img-fluid" src="/media/{{hotels_obj.images.first.hotel_images}}" alt="Card image cap">
@@ -33,11 +31,7 @@
             <p>Room count</p>
             <p>{{hotels_obj.room_count}}</p>
         </div>
-<<<<<<< HEAD
         
-=======
-        
->>>>>>> 243b747d68b0b340465ebd261a5f744b9a247a65
     </div>
     <div class="row">
         {% for image in hotels_obj.hotel_images.all %}
@@ -69,11 +63,7 @@
            
             <div class="row form-group">
                 <div class="col-md-12">
-<<<<<<< HEAD
                     <input type="submit" class="btn btn-success btn-block" value="Book">
-=======
-                    <input type="submit" class="btn btn-primary btn-block" value="Book">
->>>>>>> 243b747d68b0b340465ebd261a5f744b9a247a65
                 </div>
             </div>
         </form>
@@ -84,8 +74,5 @@
     {% endif %}
 </div>
 
-<<<<<<< HEAD
 {% endblock %}
-=======
-{% endblock %}
->>>>>>> 243b747d68b0b340465ebd261a5f744b9a247a65
+
